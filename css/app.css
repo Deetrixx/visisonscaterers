@@ -1,0 +1,121 @@
+body {
+    font-family: 'Source Sans Serif', sans-serif;
+}
+
+
+/** MAIN LOGO **/
+
+.header,
+.brand-logo {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+
+/** NAVIGATION **/
+
+nav ul {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+/** LANDING PAGE **/
+
+.section.white {
+    height: 500px;
+    background: url(../img/dining.jpeg)no-repeat fixed center;
+    background-size: cover;
+}
+
+
+/** BUTTON **/
+
+#main-btn {
+    margin-bottom: -450px;
+    margin-left: 640px;
+    margin-right: auto;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+/**  QUICK ABOUT SECTION **/
+
+
+/* TEXT */
+
+div .row h2 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+div .row p {
+    text-align: center;
+    color: white;
+}
+
+
+/** COLUMNS **/
+
+div .row .col-s4 {
+    display: inline-block;
+    border: solid white 4px;
+}
+
+div .row h6 {
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+div .row img {
+    margin: 10px;
+}
+
+
+/** SECOND IMAGE **/
+
+.section.red {
+    height: 500px;
+    background: url(../img/restaurant.jpeg)no-repeat fixed center;
+    background-size: cover;
+}
+
+
+/** THIRD IMAGE **/
+
+.section.blue {
+    height: 500px;
+    background: url(../img/prosecco.jpeg)no-repeat fixed center;
+    background-size: cover;
+}
+
+
+/** FOOTER **/
+
+footer.page-footer {
+    margin-top: 0px !important;
+}
+
+footer h5 {
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li img {
+    margin-left: 50px;
+    height: 80px;
+}

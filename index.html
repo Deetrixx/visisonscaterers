@@ -13,40 +13,140 @@
 <body>
 
     <section class="container">
-        <div id="container">
-            <div class="navT">
-                <div class="icon"></div>
-            </div>
+        <!-- main nav -->
+        <nav class="topbar" role="navigation" class="valign-center">
+            <div class="row collapse text-center">
 
-            <div id="menu">
-                <ul>
-                    <li><a>Hom<span class="space">e</span></a></li>
-                    <li><a>Abou<span class="space">t</span></a></li>
-                    <li><a>Wor<span class="space">k</span></a></li>
-                    <li><a>Blo<span class="space">g</span></a></li>
-                    <li><a>Contac<span class="space">t</span></a></li>
-                </ul>
-            </div>
+                <!-- Left -->
+                <div class="column small-4">
+                    <a href="#" data-nav="" data-show="0"><i class="fa fa-home fa-2x fa-fw"></i></a>
+                </div>
 
-        </div>
-        <div class='content'>
-            <div id="first">
-                <h1> Sample Content </h1>
-                <h2>A quick example of a nav menu</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div id="second">
-                <h1>The Top Menu</h1>
-                <h2>Pushes page content down</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <div id="bar"></div>
-            </div>
-            <div id="third">
-                <h2>But also allows for scrollling</h2>
-                <h5>While the menu is down</h5>
-            </div>
+                <!-- Middle -->
+                <div class="column small-4">
+                    <a href="#" data-nav="" data-show="1"><i class="fa fa-globe fa-2x fa-fw"></i></a>
+                </div>
 
-        </div>
+                <!-- Right -->
+                <div class="column small-4">
+                    <a href="#" data-nav="" data-show="2"><i class="fa fa-navicon fa-2x fa-fw"></i></a>
+                </div>
+
+                <!-- Bar -->
+                <div class="active-nav">
+                    <div class="active-nav__bar"></div>
+                </div>
+
+            </div>
+        </nav>
+
+
+        <!-- Page Carousel -->
+        <main id="carousel" class="carousel" role="main">
+
+            <!-- Ideally use some templating here -->
+            <ul>
+
+                <!-- Left Page -->
+                <li class="page page-left">
+
+                    <header class="page-header">
+                        <div class="row text-center">
+                            <h1 class="page-header__title">Left Page</h1>
+
+                            <p>
+                                swipe to change
+                                <i class="fa fa-angle-right"></i>
+                            </p>
+                        </div>
+                    </header>
+
+                </li>
+
+
+
+                <!-- Center Page -->
+                <li class="page page-center">
+
+                    <header class="page-header">
+                        <div class="row text-center">
+                            <h1 class="page-header__title">Center Page</h1>
+
+                            <p>
+                                <i class="fa fa-angle-left"></i> swipe to change
+                                <i class="fa fa-angle-right"></i>
+                            </p>
+                        </div>
+                    </header>
+
+                    <!-- articles list -->
+                    <div class="row">
+                        <div class="column">
+
+                            <ul class="articles">
+                                <li>
+                                    <article>
+                                        <div class="article-media"></div>
+                                        <div class="l-pad-content">
+                                            <h1>Heading Title</h1>
+                                            <p>Nulla porttitor malesuada magna, et eleifend ligula condimentum eu. Donec vitae ex tempor, pretium felis ac, semper dui... <a class="more" href="#">read more</a></p>
+                                        </div>
+                                    </article>
+                                </li>
+
+                                <li>
+                                    <article>
+                                        <div class="article-media"></div>
+                                        <div class="l-pad-content">
+                                            <h1>Heading Title</h1>
+                                            <p>Curabitur non gravida nisl. Sed at nulla tincidunt ante gravida rhoncus. Quisque gravida vitae felis a lacinia. Cras gravida elementum lorem, vel egestas neque molestie in. Nullam pulvinar non enim a facilisis. Praesent pellentesque suscipit lectus, sed faucibus nisl hendrerit in. Fusce a elit nulla.... <a class="more" href="#">read more</a></p>
+                                        </div>
+                                    </article>
+                                </li>
+
+                                <li>
+                                    <article>
+                                        <div class="article-media"></div>
+                                        <div class="l-pad-content">
+                                            <h1>Heading Title</h1>
+                                            <p>Praesent vel scelerisque massa, interdum maximus ante. Suspendisse id eleifend ex. Vestibulum ultrices volutpat malesuada. Sed lobortis at nisi vitae sodales. Nullam id lectus diam. Cras sollicitudin fringilla suscipit. Suspendisse hendrerit nunc nulla, nec eleifend sem maximus in... <a class="more" href="#">read more</a></p>
+                                        </div>
+                                    </article>
+                                </li>
+                            </ul>
+                            <!-- END articles -->
+
+                        </div>
+                    </div>
+
+                </li>
+
+
+                <!-- Right Page -->
+                <li class="page page-right">
+
+                    <header class="page-header">
+                        <div class="row text-center">
+                            <h1 class="page-header__title">Right Page</h1>
+
+                            <p>
+                                <i class="fa fa-angle-left"></i> swipe to change
+                            </p>
+                        </div>
+                    </header>
+
+                </li>
+
+
+            </ul>
+        </main>
+        <!-- END Carousel -->
+
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="//cdn.jsdelivr.net/hammerjs/2.0.4/hammer.min.js"></script>
     </section>
 
     <script src="js/vendor/jquery.js"></script>

@@ -53,6 +53,16 @@
                         #navigation-bar>ul>li>a:hover {
                             color: #1A52D1;
                         }
+
+                        .empty {
+                            height: 100px;
+                        }
+
+                        .introT {
+                            font-family: 'Galada', cursive;
+                            font-size: 45px;
+                            color: #0FF060;
+                        }
                         /****************************************************************
                   About
 ****************************************************************/

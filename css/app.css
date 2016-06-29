@@ -23,7 +23,7 @@
                         .overlay {
                             height: 100%;
                             width: 100%;
-                            opacity: 0.8;
+                            opacity: 0.75;
                             background-color: black;
                         }
                         /******************** Nav Bar************************/
@@ -34,6 +34,7 @@
                             width: 100%;
                             background: #D1581A;
                             position: fixed;
+                            z-index: 100000;
                             /*                            box-shadow: 0px 1px 10px 10px #ddd*/
                         }
 
@@ -63,7 +64,15 @@
                         .introT {
                             font-family: 'Galada', cursive;
                             font-size: 45px;
-                            color: #17136A;
+                            color: #FFFFFF;
+                            height: 150px;
+                        }
+
+                        .overlay1 {
+                            height: 150px;
+                            width: 100%;
+                            opacity: 0.75;
+                            background-color: black;
                         }
                         /****************************************************************
                   About

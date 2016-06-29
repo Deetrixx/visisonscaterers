@@ -33,7 +33,7 @@
                             text-align: center;
                             width: 100%;
                             background: #D1581A;
-                            position: fixed;
+                            /*                            position: fixed;*/
                             z-index: 100000;
                             /*                            box-shadow: 0px 1px 10px 10px #ddd*/
                         }
@@ -58,14 +58,14 @@
                         }
 
                         .empty {
-                            height: 100px;
+                            height: 50px;
                         }
 
                         .introT {
                             font-family: 'Galada', cursive;
                             font-size: 45px;
                             color: #FFFFFF;
-                            height: 150px;
+                            height: 200px;
                         }
 
                         .overlay1 {
@@ -86,6 +86,14 @@
                             background-size: cover;
                             background-attachment: fixed;
                         }
+
+                        .content {
+                            height: 700px;
+                            width: 100%;
+                            font-family: 'Oxygen', sans-serif;
+                            font-size: 35px;
+                            color: aliceblue;
+                        }
                         /****************************************************************
                  Gallery
 ****************************************************************/
@@ -95,3 +103,8 @@
                         /******************************************************************
                    Contact us
 ******************************************************************/
+.prof {
+    height: 194px;
+    width:238px;
+    border-radius: 50%;
+}

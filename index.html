@@ -9,13 +9,24 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <!--    parralax scrolling motion-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/jquery.stellar.js"></script>
+    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script>
+        $(function () {
+            $.stellar({
+                horizontalScrolling: false,
+                verticalOffset: 40
+            });
+        });
+    </script>
+    <!--
     <script>
         $(document).ready(function () {
             $(window).stellar();
         });
     </script>
+-->
     <!--    google fonts-->
     <link href='https://fonts.googleapis.com/css?family=Galada' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
@@ -85,8 +96,11 @@
             </div>
         </section>
         <section class="gallery">
-            <div class="row columns text center">
-                <h3><u>About Us</u></h3></div>
+            <div class="row columns text-center">
+                <h3 class="title"><u>GALLERY</u></h3></div>
+            <div class="row columns">
+
+            </div>
         </section>
         <section class="services">
         </section>

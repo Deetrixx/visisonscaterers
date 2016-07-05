@@ -34,23 +34,23 @@
 
 <body>
     <section class="container">
-        <section class="row home overlay" data-stellar-background-ratio="1">
+        <section class="row home overlay" id="home" data-stellar-background-ratio="1">
             <div class="row">
                 <div class="small-12 columns text-center"><img src="vcimages/LogoMakr.png"></div>
             </div>
             <nav id="navigation-bar" class="row expanded">
                 <ul class="small-12 columns expanded">
                     <li class="large-3 columns">
-                        <a href="javascript:void(0)" class="link">Home</a>
+                        <a href="#home" class="link">Home</a>
                     </li>
                     <li class=" large-3 columns">
-                        <a href="javascript:void(0)" class="link">About</a>
+                        <a href="#about" class="link">About</a>
                     </li>
                     <li class=" large-3 columns">
-                        <a href="javascript:void(0)" class="link">Gallery</a>
+                        <a href="#gallery" class="link">Gallery</a>
                     </li>
                     <li class=" large-3 columns">
-                        <a href="javascript:void(0)" class="link">Our Services</a>
+                        <a href="#services" class="link">Our Services</a>
                     </li>
                 </ul>
             </nav>
@@ -63,7 +63,7 @@
                 </div>
 
         </section>
-        <section class="about row" data-stellar-background-ratio="2">
+        <section class="about row" id="about" data-stellar-background-ratio="2">
             <div class="column row empty">&nbsp;</div>
 
             <div class="row overlay content expanded">
@@ -95,7 +95,7 @@
 
             </div>
         </section>
-        <section class="gallery">
+        <section class="gallery" id="services">
             <div class="row columns empty">&nbsp;</div>
             <div class="row columns text-center">
                 <h3 class="title"><u>GALLERY</u></h3></div>
@@ -179,7 +179,7 @@
 
             </div>
         </section>
-        <section class="services row" data-stellar-backgroud-ratio="1">
+        <section class="services row" id="services" data-stellar-backgroud-ratio="1">
             <h3 class="title text-center"><u>OUR SERVICES</u></h3>
             <div class="row content expanded overlay1">
                 <div class="large-4 columns">
@@ -215,8 +215,10 @@
 
         </section>
         <footer class="contactus row">
-            <h3 class="title text-center"><u>CONTACT US</u></h3>
-
+            <div class="row columns empty">&nbsp;</div>
+            <div class="row">
+                <h3 class="title text-center"><u>CONTACT US</u></h3>
+            </div>
         </footer>
 
 
